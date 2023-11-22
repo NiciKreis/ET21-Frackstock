@@ -1,0 +1,7 @@
+Verbesserungen:
+- Laden ohne Stock auseinander zunehmen
+- Programmieren ohne den Stock auseinander zunehmen
+- Ein/Ausschalten ohen den Stock auseinander zunehmen
+- cc1101 RF schaltung auf antenne anpassen für besseren Durchsatz
+- grössere Komponenten verwenden
+- Jumper fallen beim Klopfen ab.

@@ -1,0 +1,3025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\scrat\Documents\Frackstock\Frackstock.kicad_sch</source>
+    <date>04/03/2023 13:05:55</date>
+    <tool>Eeschema (6.0.6)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Frackstock.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PowerSupply.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MCUrp2040.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>InputOutput.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C15525</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.html</field>
+        <field name="Vendor">C1691</field>
+        <field name="vendor">C1691</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.html"/>
+      <property name="vendor" value="C1691"/>
+      <property name="Vendor" value="C1691"/>
+      <property name="LCSC" value="C15525"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>895c14e2-d198-4f27-9475-daa365de09e7</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C15525</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.html</field>
+        <field name="Vendor">C1691</field>
+        <field name="vendor">C1691</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.html"/>
+      <property name="vendor" value="C1691"/>
+      <property name="Vendor" value="C1691"/>
+      <property name="LCSC" value="C15525"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>f55aef14-39d7-4826-af2d-66bb763a6dca</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C66938</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html</field>
+        <field name="Vendor">C30926</field>
+        <field name="vendor">C30926</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html"/>
+      <property name="vendor" value="C30926"/>
+      <property name="Vendor" value="C30926"/>
+      <property name="LCSC" value="C66938"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>ea8dcc6d-5f69-4db5-a208-55fde88ce9f5</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C15525</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.html</field>
+        <field name="Vendor">C1691</field>
+        <field name="vendor">C1691</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.html"/>
+      <property name="vendor" value="C1691"/>
+      <property name="Vendor" value="C1691"/>
+      <property name="LCSC" value="C15525"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>697ad63d-d1a3-4183-87cb-d439452a4692</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C15525</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.html</field>
+        <field name="Vendor">C1691</field>
+        <field name="vendor">C1691</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.html"/>
+      <property name="vendor" value="C1691"/>
+      <property name="Vendor" value="C1691"/>
+      <property name="LCSC" value="C15525"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>35b387a8-83e7-483b-8f76-417d987f208c</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>STDBY</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C434446</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Yongyu-Photoelectric-SZYY0402G_C434446.html</field>
+        <field name="Vendor">C84264</field>
+        <field name="vendor">C84264</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Yongyu-Photoelectric-SZYY0402G_C434446.html"/>
+      <property name="vendor" value="C84264"/>
+      <property name="Vendor" value="C84264"/>
+      <property name="LCSC" value="C434446"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>eff317cb-415b-4c0a-97ef-4d895836fb9c</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>CHRG</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C434445</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Yongyu-Photoelectric-SZYY0402R_C434445.html</field>
+        <field name="Vendor">C84263</field>
+        <field name="vendor">C84263</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Yongyu-Photoelectric-SZYY0402R_C434445.html"/>
+      <property name="vendor" value="C84263"/>
+      <property name="Vendor" value="C84263"/>
+      <property name="LCSC" value="C434445"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>ff049ca0-1de6-4749-830d-47b01c000ea4</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>DW01A</value>
+      <footprint>SnapEDA Library:SOT23-6</footprint>
+      <fields>
+        <field name="LCSC">C351410</field>
+        <field name="MPN">DW01A</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Battery-Management-ICs_PUOLOP-DW01A_C351410.html</field>
+        <field name="VALUE">DW01A</field>
+        <field name="Vendor">C351410</field>
+        <field name="vendor">C351410</field>
+      </fields>
+      <libsource lib="DW01A" part="DW01A" description=""/>
+      <property name="MPN" value="DW01A"/>
+      <property name="LCSC" value="C351410"/>
+      <property name="VALUE" value="DW01A"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Battery-Management-ICs_PUOLOP-DW01A_C351410.html"/>
+      <property name="vendor" value="C351410"/>
+      <property name="Vendor" value="C351410"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>c02f5fe4-58d1-4480-8c41-1974eb0d6f44</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x01_Female</value>
+      <footprint>Connector_Wire:SolderWirePad_1x01_SMD_5x10mm</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>0e019ebb-f5fe-4b3b-8d16-ce13c3cef6cb</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x01_Female</value>
+      <footprint>Connector_Wire:SolderWirePad_1x01_SMD_5x10mm</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>b2fc14c0-e496-45cd-baf5-158a1c861267</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>TYPE-C-31-M-12</value>
+      <footprint>SnapEDA Library:HRO_TYPE-C-31-M-12</footprint>
+      <fields>
+        <field name="LCSC">C165948</field>
+        <field name="MANUFACTURER">HRO Electronics Co., Ltd.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.26 mm</field>
+        <field name="Note">https://www.lcsc.com/product-detail/USB-Connectors_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.html</field>
+        <field name="PARTREV">2020.12.08</field>
+        <field name="SNAPEDA_PN">TYPE-C-31-M-12</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="Vendor">C165948</field>
+        <field name="vendor">C165948</field>
+      </fields>
+      <libsource lib="TYPE-C-31-M-12" part="TYPE-C-31-M-12" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="3.26 mm"/>
+      <property name="SNAPEDA_PN" value="TYPE-C-31-M-12"/>
+      <property name="PARTREV" value="2020.12.08"/>
+      <property name="MANUFACTURER" value="HRO Electronics Co., Ltd."/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/USB-Connectors_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.html"/>
+      <property name="vendor" value="C165948"/>
+      <property name="Vendor" value="C165948"/>
+      <property name="LCSC" value="C165948"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>43a82637-b969-4b80-953b-03da44cefe10</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>b777a6ea-f0a6-4df9-ad9c-03d64cf0c513</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>4.7u</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C1034</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Inductors-SMD_Sunlord-SDFL1608Q4R7KTF_C1034.html</field>
+        <field name="Vendor">C1034</field>
+        <field name="vendor">C1034</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Inductors-SMD_Sunlord-SDFL1608Q4R7KTF_C1034.html"/>
+      <property name="vendor" value="C1034"/>
+      <property name="Vendor" value="C1034"/>
+      <property name="LCSC" value="C1034"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>d56113bb-2acd-4835-81eb-75af6abfc265</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>FS8205A</value>
+      <footprint>SnapEDA Library:SOP65P640X120-8N</footprint>
+      <fields>
+        <field name="LCSC">C16052</field>
+        <field name="MANUFACTURER">Fortune Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.2mm</field>
+        <field name="Note">https://www.lcsc.com/product-detail/MOSFETs_Fortune-Semicon-FS8205A_C16052.html</field>
+        <field name="PARTREV">1.7</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="Vendor">C16052</field>
+        <field name="vendor">C16052</field>
+      </fields>
+      <libsource lib="FS8205A" part="FS8205A" description=""/>
+      <property name="MANUFACTURER" value="Fortune Semiconductor"/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="PARTREV" value="1.7"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.2mm"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/MOSFETs_Fortune-Semicon-FS8205A_C16052.html"/>
+      <property name="vendor" value="C16052"/>
+      <property name="Vendor" value="C16052"/>
+      <property name="LCSC" value="C16052"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>07f11709-ac39-4652-9144-e43bbeeddc26</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C274341</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-075K1L_C274341.html</field>
+        <field name="Vendor">C23186</field>
+        <field name="vendor">C23186</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-075K1L_C274341.html"/>
+      <property name="vendor" value="C23186"/>
+      <property name="Vendor" value="C23186"/>
+      <property name="LCSC" value="C274341"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>8e6ebb01-a436-41b6-8737-5af36605ab42</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C274341</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-075K1L_C274341.html</field>
+        <field name="Vendor">C23186</field>
+        <field name="vendor">C23186</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-075K1L_C274341.html"/>
+      <property name="vendor" value="C23186"/>
+      <property name="Vendor" value="C23186"/>
+      <property name="LCSC" value="C274341"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>d72a8a90-7b4c-48ef-b2fe-c86e8b66f521</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C274341</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-075K1L_C274341.html</field>
+        <field name="Vendor">C23186</field>
+        <field name="vendor">C23186</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-075K1L_C274341.html"/>
+      <property name="vendor" value="C23186"/>
+      <property name="Vendor" value="C23186"/>
+      <property name="LCSC" value="C274341"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>d221df2f-6be6-4e66-af83-15304d9add71</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C851717</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201DR-07330RL_C851717.html</field>
+        <field name="Vendor">C105881</field>
+        <field name="vendor">C105881</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201DR-07330RL_C851717.html"/>
+      <property name="vendor" value="C105881"/>
+      <property name="Vendor" value="C105881"/>
+      <property name="LCSC" value="C851717"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>7acf6d63-0cd9-47f9-8510-5e58a42f3d4e</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C851717</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201DR-07330RL_C851717.html</field>
+        <field name="Vendor">C105881</field>
+        <field name="vendor">C105881</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201DR-07330RL_C851717.html"/>
+      <property name="vendor" value="C105881"/>
+      <property name="Vendor" value="C105881"/>
+      <property name="LCSC" value="C851717"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>c6ba0bb6-0c97-4e9a-a9c4-89400e0bc647</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C77623</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-07100RL_C77623.html</field>
+        <field name="Vendor">C105588</field>
+        <field name="vendor">C105588</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-07100RL_C77623.html"/>
+      <property name="vendor" value="C105588"/>
+      <property name="Vendor" value="C105588"/>
+      <property name="LCSC" value="C77623"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>a0eed268-4e77-4e6c-92e0-c50032df1cbe</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C138165</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-071KL_C138165.html</field>
+        <field name="Vendor">C21190</field>
+        <field name="vendor">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-071KL_C138165.html"/>
+      <property name="vendor" value="C21190"/>
+      <property name="Vendor" value="C21190"/>
+      <property name="LCSC" value="C138165"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>c0354c33-6169-45f7-a18c-a65290a7378f</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C473482</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0201WMF1004TEE_C473482.html</field>
+        <field name="Vendor">C22935</field>
+        <field name="vendor">C22935</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0201WMF1004TEE_C473482.html"/>
+      <property name="vendor" value="C22935"/>
+      <property name="Vendor" value="C22935"/>
+      <property name="LCSC" value="C473482"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>e8f8fb3e-ecd5-45bf-b2be-6f72d5b08aa2</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>TP4056</value>
+      <footprint>SnapEDA Library:SOP127P600X175-9N</footprint>
+      <fields>
+        <field name="LCSC">C725790</field>
+        <field name="MANUFACTURER">NanJing Top Power ASIC Corp.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.75mm</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Battery-Management-ICs_UMW-Youtai-Semiconductor-Co-Ltd-TP4056_C725790.html</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="Vendor">C725790</field>
+        <field name="vendor">C725790</field>
+      </fields>
+      <libsource lib="TP4056" part="TP4056" description=""/>
+      <property name="MANUFACTURER" value="NanJing Top Power ASIC Corp."/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.75mm"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Battery-Management-ICs_UMW-Youtai-Semiconductor-Co-Ltd-TP4056_C725790.html"/>
+      <property name="vendor" value="C725790"/>
+      <property name="Vendor" value="C725790"/>
+      <property name="LCSC" value="C725790"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>95bb7b07-3d77-4766-bfbb-04932257cf5a</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>AO3401</value>
+      <footprint>SnapEDA Library:SOT23</footprint>
+      <fields>
+        <field name="LCSC">C727156</field>
+        <field name="Note">https://www.lcsc.com/product-detail/MOSFETs_TWGMC-AO3401_C727156.html</field>
+        <field name="Vendor">C727156</field>
+        <field name="vendor">C727156</field>
+      </fields>
+      <libsource lib="AO3401" part="AO3401" description=""/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/MOSFETs_TWGMC-AO3401_C727156.html"/>
+      <property name="vendor" value="C727156"/>
+      <property name="Vendor" value="C727156"/>
+      <property name="LCSC" value="C727156"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>f797e5e0-ac07-4363-b170-0e90ba40bfeb</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>DFLS130L-7</value>
+      <footprint>SnapEDA Library:POWERDI123</footprint>
+      <fields>
+        <field name="LCSC">C110493</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_Diodes-Incorporated-DFLS130L-7_C110493.html</field>
+        <field name="Vendor">C110493</field>
+        <field name="vendor">C110493</field>
+      </fields>
+      <libsource lib="DFLS130L-7" part="DFLS130L-7" description=""/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_Diodes-Incorporated-DFLS130L-7_C110493.html"/>
+      <property name="vendor" value="C110493"/>
+      <property name="Vendor" value="C110493"/>
+      <property name="LCSC" value="C110493"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>e3b85cd9-914c-4bb3-9c7f-1dc521ef6d58</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>SPX3819M5-L-3-3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.exar.com/content/document.ashx?id=22106&amp;languageid=1033&amp;type=Datasheet&amp;partnumber=SPX3819&amp;filename=SPX3819.pdf&amp;part=SPX3819</datasheet>
+      <fields>
+        <field name="LCSC">C9055</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_MaxLinear-SPX3819M5-L-3-3-TR_C9055.html</field>
+        <field name="Vendor">C9055</field>
+        <field name="vendor">C9055</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="SPX3819M5-L-3-3" description="500mA Low drop-out regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_MaxLinear-SPX3819M5-L-3-3-TR_C9055.html"/>
+      <property name="vendor" value="C9055"/>
+      <property name="Vendor" value="C9055"/>
+      <property name="LCSC" value="C9055"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>cb2a4bc1-57e0-42e7-b579-3bcf00d879fb</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>SGM6603-5.0YN6G_TR</value>
+      <footprint>SnapEDA Library:SOT23-6</footprint>
+      <datasheet>https://pdf1.alldatasheet.com/datasheet-pdf/view/1059319/SGMICRO/SGM6603-5.0YN6G/TR.html</datasheet>
+      <fields>
+        <field name="Description">SGM6603-5.0YN6G/TR</field>
+        <field name="Height">1.25</field>
+        <field name="LCSC">C79689</field>
+        <field name="Manufacturer_Name">SG-MICRO</field>
+        <field name="Manufacturer_Part_Number">SGM6603-5.0YN6G/TR</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Others_SG-Micro-SGM6603-5-0YN6G-TR_C79689.html?gclid=CjwKCAiAjPyfBhBMEiwAB2CCIssFY6xa9nyitPNGzmt3SpzAawPaFcm_Psmj30v4B47qhy8hBVX7rRoCaukQAvD_BwE</field>
+        <field name="Vendor">C79689</field>
+        <field name="vendor">C79689</field>
+      </fields>
+      <libsource lib="New_Library" part="SGM6603-5.0YN6G_TR" description="SGM6603-5.0YN6G/TR"/>
+      <property name="Description" value="SGM6603-5.0YN6G/TR"/>
+      <property name="Height" value="1.25"/>
+      <property name="Manufacturer_Name" value="SG-MICRO"/>
+      <property name="Manufacturer_Part_Number" value="SGM6603-5.0YN6G/TR"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Others_SG-Micro-SGM6603-5-0YN6G-TR_C79689.html?gclid=CjwKCAiAjPyfBhBMEiwAB2CCIssFY6xa9nyitPNGzmt3SpzAawPaFcm_Psmj30v4B47qhy8hBVX7rRoCaukQAvD_BwE"/>
+      <property name="vendor" value="C79689"/>
+      <property name="Vendor" value="C79689"/>
+      <property name="LCSC" value="C79689"/>
+      <property name="Sheetname" value="PowerSupply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/PowerSupply/" tstamps="/e9af0e5f-81d9-4941-b623-a8314cc9a540/"/>
+      <tstamps>b4fdfa34-5f13-4edd-b609-c44771c8b991</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>30q</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C312064</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Darfon-Elec-C0603NP0300KGTS_C312064.html</field>
+        <field name="Vendor">C113797</field>
+        <field name="vendor">C113797</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Darfon-Elec-C0603NP0300KGTS_C312064.html"/>
+      <property name="vendor" value="C113797"/>
+      <property name="Vendor" value="C113797"/>
+      <property name="LCSC" value="C312064"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>92a4d15e-d7bf-48cc-ae16-cff0b8958b57</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>30q</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C312064</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Darfon-Elec-C0603NP0300KGTS_C312064.html</field>
+        <field name="Vendor">C113797</field>
+        <field name="vendor">C113797</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Darfon-Elec-C0603NP0300KGTS_C312064.html"/>
+      <property name="vendor" value="C113797"/>
+      <property name="Vendor" value="C113797"/>
+      <property name="LCSC" value="C312064"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>3e2498bc-a9ae-4d8e-bb8b-9fad671bd55c</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C66938</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html</field>
+        <field name="Vendor">C30926</field>
+        <field name="vendor">C30926</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html"/>
+      <property name="vendor" value="C30926"/>
+      <property name="Vendor" value="C30926"/>
+      <property name="LCSC" value="C66938"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>dd687a5a-32b1-46c1-a96d-7082a6b61728</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C66938</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html</field>
+        <field name="Vendor">C30926</field>
+        <field name="vendor">C30926</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html"/>
+      <property name="vendor" value="C30926"/>
+      <property name="Vendor" value="C30926"/>
+      <property name="LCSC" value="C66938"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>5e3e9981-8cd8-4079-8893-48d2475c0b67</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C87143</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Taiyo-Yuden-JMK063ABJ105MP-F_C87143.html</field>
+        <field name="Vendor">C59302</field>
+        <field name="vendor">C59302</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Taiyo-Yuden-JMK063ABJ105MP-F_C87143.html"/>
+      <property name="vendor" value="C59302"/>
+      <property name="Vendor" value="C59302"/>
+      <property name="LCSC" value="C87143"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>f946d2c9-1d23-4980-af07-3cab7d7ad9a0</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C87143</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Taiyo-Yuden-JMK063ABJ105MP-F_C87143.html</field>
+        <field name="Vendor">C59302</field>
+        <field name="vendor">C59302</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Taiyo-Yuden-JMK063ABJ105MP-F_C87143.html"/>
+      <property name="vendor" value="C59302"/>
+      <property name="Vendor" value="C59302"/>
+      <property name="LCSC" value="C87143"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>4323bb16-6ac9-4fa0-8709-9ceb756d524c</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C66938</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html</field>
+        <field name="Vendor">C30926</field>
+        <field name="vendor">C30926</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html"/>
+      <property name="vendor" value="C30926"/>
+      <property name="Vendor" value="C30926"/>
+      <property name="LCSC" value="C66938"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>dda044e4-ce2f-4578-a061-6bafa92bb226</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C66938</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html</field>
+        <field name="Vendor">C30926</field>
+        <field name="vendor">C30926</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html"/>
+      <property name="vendor" value="C30926"/>
+      <property name="Vendor" value="C30926"/>
+      <property name="LCSC" value="C66938"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>f47e45ce-8c86-40e3-915d-5373801a6ce1</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C66938</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html</field>
+        <field name="Vendor">C30926</field>
+        <field name="vendor">C30926</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html"/>
+      <property name="vendor" value="C30926"/>
+      <property name="Vendor" value="C30926"/>
+      <property name="LCSC" value="C66938"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>13794063-72e0-40c7-8625-0c51ac76a18f</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C66938</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html</field>
+        <field name="Vendor">C30926</field>
+        <field name="vendor">C30926</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html"/>
+      <property name="vendor" value="C30926"/>
+      <property name="Vendor" value="C30926"/>
+      <property name="LCSC" value="C66938"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>2de30c80-8a7d-4ee4-984f-96815f8258e1</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C66938</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html</field>
+        <field name="Vendor">C30926</field>
+        <field name="vendor">C30926</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html"/>
+      <property name="vendor" value="C30926"/>
+      <property name="Vendor" value="C30926"/>
+      <property name="LCSC" value="C66938"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>ed755101-7104-498a-9f34-9c64b434f0c2</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C66938</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html</field>
+        <field name="Vendor">C30926</field>
+        <field name="vendor">C30926</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html"/>
+      <property name="vendor" value="C30926"/>
+      <property name="Vendor" value="C30926"/>
+      <property name="LCSC" value="C66938"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>f9a65906-7ebf-4c5c-854a-2909558dc806</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C66938</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html</field>
+        <field name="Vendor">C30926</field>
+        <field name="vendor">C30926</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html"/>
+      <property name="vendor" value="C30926"/>
+      <property name="Vendor" value="C30926"/>
+      <property name="LCSC" value="C66938"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>da8974eb-1f76-4666-a37e-ac10c09d883e</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C66938</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html</field>
+        <field name="Vendor">C30926</field>
+        <field name="vendor">C30926</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html"/>
+      <property name="vendor" value="C30926"/>
+      <property name="Vendor" value="C30926"/>
+      <property name="LCSC" value="C66938"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>0df5259e-8853-4b05-91bd-09836f435b9a</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C434447</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Yongyu-Photoelectric-SZYY0402B_C434447.html</field>
+        <field name="Vendor">C84266</field>
+        <field name="vendor">C84266</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Yongyu-Photoelectric-SZYY0402B_C434447.html"/>
+      <property name="vendor" value="C84266"/>
+      <property name="Vendor" value="C84266"/>
+      <property name="LCSC" value="C434447"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>485557d2-5fb8-42bd-9001-e4bd83c06a1d</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C434447</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Yongyu-Photoelectric-SZYY0402B_C434447.html</field>
+        <field name="Vendor">C84266</field>
+        <field name="vendor">C84266</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Yongyu-Photoelectric-SZYY0402B_C434447.html"/>
+      <property name="vendor" value="C84266"/>
+      <property name="Vendor" value="C84266"/>
+      <property name="LCSC" value="C434447"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>a4c265b5-f0d1-4e99-aa90-510ab2aa2297</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>UART</value>
+      <footprint>SnapEDA Library:JST_SM03B-SRSS-TB(LF)(SN)</footprint>
+      <fields>
+        <field name="LCSC">C160403</field>
+        <field name="MANUFACTURER">JST</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-SM03B-SRSS-TB-LF-SN_C160403.html?gclid=CjwKCAiAjPyfBhBMEiwAB2CCItJ94jCsQUdH6q774NLBIiWVlyshV3gnMPb2zrWkuojxFjFvpiwIyRoCI8AQAvD_BwE</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="Vendor">C160403</field>
+        <field name="vendor">C160403</field>
+      </fields>
+      <libsource lib="SM03B-SRSS-TB_LF__SN_" part="SM03B-SRSS-TB(LF)(SN)" description=""/>
+      <property name="MANUFACTURER" value="JST"/>
+      <property name="STANDARD" value="Manufacturer Recommendation"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-SM03B-SRSS-TB-LF-SN_C160403.html?gclid=CjwKCAiAjPyfBhBMEiwAB2CCItJ94jCsQUdH6q774NLBIiWVlyshV3gnMPb2zrWkuojxFjFvpiwIyRoCI8AQAvD_BwE"/>
+      <property name="vendor" value="C160403"/>
+      <property name="Vendor" value="C160403"/>
+      <property name="LCSC" value="C160403"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>52e30d44-884b-438d-91de-68dbcfb02085</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>e41d7c5d-c42e-46a4-94bd-b688eed9789b</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>26bdb77d-a699-478b-af12-3f47b29b5c3a</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>SWD</value>
+      <footprint>SnapEDA Library:JST_SM03B-SRSS-TB(LF)(SN)</footprint>
+      <fields>
+        <field name="LCSC">C160403</field>
+        <field name="MANUFACTURER">JST</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-SM03B-SRSS-TB-LF-SN_C160403.html?gclid=CjwKCAiAjPyfBhBMEiwAB2CCItJ94jCsQUdH6q774NLBIiWVlyshV3gnMPb2zrWkuojxFjFvpiwIyRoCI8AQAvD_BwE</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="Vendor">C160403</field>
+        <field name="vendor">C160403</field>
+      </fields>
+      <libsource lib="SM03B-SRSS-TB_LF__SN_" part="SM03B-SRSS-TB(LF)(SN)" description=""/>
+      <property name="MANUFACTURER" value="JST"/>
+      <property name="STANDARD" value="Manufacturer Recommendation"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-SM03B-SRSS-TB-LF-SN_C160403.html?gclid=CjwKCAiAjPyfBhBMEiwAB2CCItJ94jCsQUdH6q774NLBIiWVlyshV3gnMPb2zrWkuojxFjFvpiwIyRoCI8AQAvD_BwE"/>
+      <property name="vendor" value="C160403"/>
+      <property name="Vendor" value="C160403"/>
+      <property name="LCSC" value="C160403"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>a93afb61-b35c-4723-bfb8-62cf48bd3c0e</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>27.4</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C423620</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0201WMF274JTEE_C423620.html</field>
+        <field name="Vendor">C2907018</field>
+        <field name="vendor">C2907018</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0201WMF274JTEE_C423620.html"/>
+      <property name="vendor" value="C2907018"/>
+      <property name="Vendor" value="C2907018"/>
+      <property name="LCSC" value="C423620"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>b893639d-45a6-4775-8ffa-785b5a696a24</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>27.4</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C423620</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0201WMF274JTEE_C423620.html</field>
+        <field name="Vendor">C2907018</field>
+        <field name="vendor">C2907018</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0201WMF274JTEE_C423620.html"/>
+      <property name="vendor" value="C2907018"/>
+      <property name="Vendor" value="C2907018"/>
+      <property name="LCSC" value="C423620"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>f5f6a0d4-aab8-4e71-9bea-af8818f0d2a7</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C138165</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-071KL_C138165.html</field>
+        <field name="Vendor">C21190</field>
+        <field name="vendor">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-071KL_C138165.html"/>
+      <property name="vendor" value="C21190"/>
+      <property name="Vendor" value="C21190"/>
+      <property name="LCSC" value="C138165"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>f50023f0-b399-4944-8fb8-2c7446944f9c</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C106225</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-0710KL_C106225.html</field>
+        <field name="Vendor">C25804</field>
+        <field name="vendor">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-0710KL_C106225.html"/>
+      <property name="vendor" value="C25804"/>
+      <property name="Vendor" value="C25804"/>
+      <property name="LCSC" value="C106225"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>1a1c3021-d2c1-4f93-aacf-99f597f0f199</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C851717</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201DR-07330RL_C851717.html</field>
+        <field name="Vendor">C105881</field>
+        <field name="vendor">C105881</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201DR-07330RL_C851717.html"/>
+      <property name="vendor" value="C105881"/>
+      <property name="Vendor" value="C105881"/>
+      <property name="LCSC" value="C851717"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>b56c1f58-8a0b-44d0-b45d-cac179ff2961</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C851717</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201DR-07330RL_C851717.html</field>
+        <field name="Vendor">C105881</field>
+        <field name="vendor">C105881</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201DR-07330RL_C851717.html"/>
+      <property name="vendor" value="C105881"/>
+      <property name="Vendor" value="C105881"/>
+      <property name="LCSC" value="C851717"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>50af6d5d-5b4b-4c70-be04-3995821e2677</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C77623</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-07100RL_C77623.html</field>
+        <field name="Vendor">C105588</field>
+        <field name="vendor">C105588</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-07100RL_C77623.html"/>
+      <property name="vendor" value="C105588"/>
+      <property name="Vendor" value="C105588"/>
+      <property name="LCSC" value="C77623"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>fbe71d8b-ff9a-4218-a3eb-a261a645b711</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C77623</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-07100RL_C77623.html</field>
+        <field name="Vendor">C105588</field>
+        <field name="vendor">C105588</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-07100RL_C77623.html"/>
+      <property name="vendor" value="C105588"/>
+      <property name="Vendor" value="C105588"/>
+      <property name="LCSC" value="C77623"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>d7b5b237-1c1e-4d5a-9740-8d73e4835fc6</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C77623</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-07100RL_C77623.html</field>
+        <field name="Vendor">C105588</field>
+        <field name="vendor">C105588</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-07100RL_C77623.html"/>
+      <property name="vendor" value="C105588"/>
+      <property name="Vendor" value="C105588"/>
+      <property name="LCSC" value="C77623"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>c0223aa8-28e1-487e-b094-580b01f6dbad</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C77623</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-07100RL_C77623.html</field>
+        <field name="Vendor">C105588</field>
+        <field name="vendor">C105588</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-07100RL_C77623.html"/>
+      <property name="vendor" value="C105588"/>
+      <property name="Vendor" value="C105588"/>
+      <property name="LCSC" value="C77623"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>19de75af-0f35-4773-85c9-125dda7fcfd3</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>RP2040</value>
+      <footprint>SnapEDA Library:QFN40P700X700X90-57N</footprint>
+      <fields>
+        <field name="LCSC">C2040</field>
+        <field name="MANUFACTURER">Raspberry Pi</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.9 mm</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Microcontroller-Units-MCUs-MPUs-SOCs_Raspberry-Pi-RP2040_C2040.html</field>
+        <field name="PARTREV">1.6.1</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="Vendor">C2040</field>
+        <field name="vendor">C2040</field>
+      </fields>
+      <libsource lib="RP2040" part="RP2040" description=""/>
+      <property name="PARTREV" value="1.6.1"/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.9 mm"/>
+      <property name="MANUFACTURER" value="Raspberry Pi"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Microcontroller-Units-MCUs-MPUs-SOCs_Raspberry-Pi-RP2040_C2040.html"/>
+      <property name="vendor" value="C2040"/>
+      <property name="Vendor" value="C2040"/>
+      <property name="LCSC" value="C2040"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>b6230b7e-1a84-4dc0-b5ef-f38f52c88118</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>W25Q128JVSIQ</value>
+      <footprint>SnapEDA Library:SOIC127P790X216-8N</footprint>
+      <fields>
+        <field name="LCSC">C113767</field>
+        <field name="MANUFACTURER">Winbond Electronics</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.16 mm</field>
+        <field name="Note">https://www.lcsc.com/product-detail/NOR-FLASH_Winbond-Elec-W25Q128JVSIQ_C113767.html</field>
+        <field name="PARTREV">I</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="Vendor">C113767</field>
+        <field name="vendor">C113767</field>
+      </fields>
+      <libsource lib="W25Q128JVSIQ" part="W25Q128JVSIQ" description=""/>
+      <property name="PARTREV" value="I"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="2.16 mm"/>
+      <property name="MANUFACTURER" value="Winbond Electronics"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/NOR-FLASH_Winbond-Elec-W25Q128JVSIQ_C113767.html"/>
+      <property name="vendor" value="C113767"/>
+      <property name="Vendor" value="C113767"/>
+      <property name="LCSC" value="C113767"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>70d5948a-cc47-48f2-88d6-83bf864a6c50</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>TAXM12M4RLBDDT2T</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <fields>
+        <field name="LCSC">C133334</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Crystals_TAE-Zhejiang-Abel-Elec-TAXM12M4RLBDDT2T_C133334.html</field>
+        <field name="Vendor">C133334</field>
+        <field name="vendor">C133334</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Crystals_TAE-Zhejiang-Abel-Elec-TAXM12M4RLBDDT2T_C133334.html"/>
+      <property name="vendor" value="C133334"/>
+      <property name="Vendor" value="C133334"/>
+      <property name="LCSC" value="C133334"/>
+      <property name="Sheetname" value="MCU: RP2040"/>
+      <property name="Sheetfile" value="MCUrp2040.kicad_sch"/>
+      <sheetpath names="/MCU: RP2040/" tstamps="/ef112b53-3ef3-47e6-bd33-16e434e7b229/"/>
+      <tstamps>cf6b6dc3-8da9-47e7-907a-7eea45a55fa1</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C66938</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html</field>
+        <field name="Vendor">C30926</field>
+        <field name="vendor">C30926</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html"/>
+      <property name="vendor" value="C30926"/>
+      <property name="Vendor" value="C30926"/>
+      <property name="LCSC" value="C66938"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>19f5f4ce-67a3-4274-8a3e-52653fde32ea</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C66938</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html</field>
+        <field name="Vendor">C30926</field>
+        <field name="vendor">C30926</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html"/>
+      <property name="vendor" value="C30926"/>
+      <property name="Vendor" value="C30926"/>
+      <property name="LCSC" value="C66938"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>409f33f3-55f0-43da-9a29-47aff6a90be7</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C66938</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html</field>
+        <field name="Vendor">C30926</field>
+        <field name="vendor">C30926</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html"/>
+      <property name="vendor" value="C30926"/>
+      <property name="Vendor" value="C30926"/>
+      <property name="LCSC" value="C66938"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>b398a56b-cc81-43ed-9528-9db34c2ddfea</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C66938</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html</field>
+        <field name="Vendor">C30926</field>
+        <field name="vendor">C30926</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html"/>
+      <property name="vendor" value="C30926"/>
+      <property name="Vendor" value="C30926"/>
+      <property name="LCSC" value="C66938"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>52fd0a8c-3ccd-46b6-81bd-09d5cc8ea713</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>25p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C5186872</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Chinocera-HGC0402G0250J500NTEJ_C5186872.html</field>
+        <field name="Vendor">C282067</field>
+        <field name="vendor">C282067</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Chinocera-HGC0402G0250J500NTEJ_C5186872.html"/>
+      <property name="vendor" value="C282067"/>
+      <property name="Vendor" value="C282067"/>
+      <property name="LCSC" value="C5186872"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>54b8e540-0f57-4943-a22f-0ca4dc20d931</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>3.9p</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C285000</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201CG3R9B500NT_C285000.html</field>
+        <field name="Vendor">C519107</field>
+        <field name="vendor">C519107</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201CG3R9B500NT_C285000.html"/>
+      <property name="vendor" value="C519107"/>
+      <property name="Vendor" value="C519107"/>
+      <property name="LCSC" value="C285000"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>bcb45bb3-f2da-4115-bc8d-7ba0394790bc</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>220p</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C258475</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Darfon-Elec-C0603X7R221KGT_C258475.html</field>
+        <field name="Vendor">C107081</field>
+        <field name="vendor">C107081</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Darfon-Elec-C0603X7R221KGT_C258475.html"/>
+      <property name="vendor" value="C107081"/>
+      <property name="Vendor" value="C107081"/>
+      <property name="LCSC" value="C258475"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>89f65b2b-79b2-48f6-8da4-3ec64747f0d4</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C66938</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html</field>
+        <field name="Vendor">C30926</field>
+        <field name="vendor">C30926</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html"/>
+      <property name="vendor" value="C30926"/>
+      <property name="Vendor" value="C30926"/>
+      <property name="LCSC" value="C66938"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>f7afe760-86d9-4443-ad42-05ac0fe1aee7</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>3.9p</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C285000</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201CG3R9B500NT_C285000.html</field>
+        <field name="Vendor">C519107</field>
+        <field name="vendor">C519107</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201CG3R9B500NT_C285000.html"/>
+      <property name="vendor" value="C519107"/>
+      <property name="Vendor" value="C519107"/>
+      <property name="LCSC" value="C285000"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>1af1f41d-ad0a-4d8c-9c74-cadc0308edf6</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C66938</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html</field>
+        <field name="Vendor">C30926</field>
+        <field name="vendor">C30926</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html"/>
+      <property name="vendor" value="C30926"/>
+      <property name="Vendor" value="C30926"/>
+      <property name="LCSC" value="C66938"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>ff38bd1e-08d9-41d9-b0b9-edb42b81c137</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C66938</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html</field>
+        <field name="Vendor">C30926</field>
+        <field name="vendor">C30926</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html"/>
+      <property name="vendor" value="C30926"/>
+      <property name="Vendor" value="C30926"/>
+      <property name="LCSC" value="C66938"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>d86253d9-6135-4147-bd24-a1f213298efa</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>8.2p</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C469622</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-RF03N8R2B250CT_C469622.html</field>
+        <field name="Vendor">C1685</field>
+        <field name="vendor">C1685</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-RF03N8R2B250CT_C469622.html"/>
+      <property name="vendor" value="C1685"/>
+      <property name="Vendor" value="C1685"/>
+      <property name="LCSC" value="C469622"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>ccb40c58-9a2c-453d-bdc7-c950fd342c9d</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>25p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC">C5186872</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Chinocera-HGC0402G0250J500NTEJ_C5186872.html</field>
+        <field name="Vendor">C282067</field>
+        <field name="vendor">C282067</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Chinocera-HGC0402G0250J500NTEJ_C5186872.html"/>
+      <property name="vendor" value="C282067"/>
+      <property name="Vendor" value="C282067"/>
+      <property name="LCSC" value="C5186872"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>758c4ec4-6084-4f4f-9afd-93f4259a7836</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C66938</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html</field>
+        <field name="Vendor">C30926</field>
+        <field name="vendor">C30926</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html"/>
+      <property name="vendor" value="C30926"/>
+      <property name="Vendor" value="C30926"/>
+      <property name="LCSC" value="C66938"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>6939833f-79c8-488b-9083-c68348db280e</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>5.6p</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C285131</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201CG5R6D500NT_C285131.html</field>
+        <field name="Vendor">C1674</field>
+        <field name="vendor">C1674</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201CG5R6D500NT_C285131.html"/>
+      <property name="vendor" value="C1674"/>
+      <property name="Vendor" value="C1674"/>
+      <property name="LCSC" value="C285131"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>9001c2e9-57ec-4897-a31d-36399f26db4d</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C66938</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html</field>
+        <field name="Vendor">C30926</field>
+        <field name="vendor">C30926</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0201X104K6R3NT_C66938.html"/>
+      <property name="vendor" value="C30926"/>
+      <property name="Vendor" value="C30926"/>
+      <property name="LCSC" value="C66938"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>f1520155-88a6-4de2-894b-1723360940bc</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>220p</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C258475</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Darfon-Elec-C0603X7R221KGT_C258475.html</field>
+        <field name="Vendor">C107081</field>
+        <field name="vendor">C107081</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Darfon-Elec-C0603X7R221KGT_C258475.html"/>
+      <property name="vendor" value="C107081"/>
+      <property name="Vendor" value="C107081"/>
+      <property name="LCSC" value="C258475"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>48d11ac8-3df8-4fd3-9247-e750813d582a</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x01_Male</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>207c3a65-12c3-4b0d-8c74-eb5e032b4e39</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>27n</value>
+      <footprint>Inductor_SMD:L_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C95928</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Inductors-SMD_Sunlord-SDCL0603Q27NJT02_C95928.html</field>
+        <field name="Vendor">C90208</field>
+        <field name="vendor">C90208</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Inductors-SMD_Sunlord-SDCL0603Q27NJT02_C95928.html"/>
+      <property name="vendor" value="C90208"/>
+      <property name="Vendor" value="C90208"/>
+      <property name="LCSC" value="C95928"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>5dcfd5d2-574e-43e6-ad7f-62e75c29d74e</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>27n</value>
+      <footprint>Inductor_SMD:L_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C95928</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Inductors-SMD_Sunlord-SDCL0603Q27NJT02_C95928.html</field>
+        <field name="Vendor">C90208</field>
+        <field name="vendor">C90208</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Inductors-SMD_Sunlord-SDCL0603Q27NJT02_C95928.html"/>
+      <property name="vendor" value="C90208"/>
+      <property name="Vendor" value="C90208"/>
+      <property name="LCSC" value="C95928"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>4f2fe561-ab08-4bd6-8db8-c109e2879c5d</tstamps>
+    </comp>
+    <comp ref="L4">
+      <value>22n</value>
+      <footprint>Inductor_SMD:L_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C275177</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Inductors-SMD_TDK-MLG0603P22NJTZ10_C275177.html</field>
+        <field name="Vendor">C12099</field>
+        <field name="vendor">C12099</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Inductors-SMD_TDK-MLG0603P22NJTZ10_C275177.html"/>
+      <property name="vendor" value="C12099"/>
+      <property name="Vendor" value="C12099"/>
+      <property name="LCSC" value="C275177"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>73aa6416-ee69-4825-9512-bfc96a52b6e0</tstamps>
+    </comp>
+    <comp ref="L5">
+      <value>27n</value>
+      <footprint>Inductor_SMD:L_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C95928</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Inductors-SMD_Sunlord-SDCL0603Q27NJT02_C95928.html</field>
+        <field name="Vendor">C90208</field>
+        <field name="vendor">C90208</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Inductors-SMD_Sunlord-SDCL0603Q27NJT02_C95928.html"/>
+      <property name="vendor" value="C90208"/>
+      <property name="Vendor" value="C90208"/>
+      <property name="LCSC" value="C95928"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>e1dc3438-5dd0-42d2-8ec9-db4585d56f2a</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C2938375</field>
+        <field name="Note">https://www.lcsc.com/product-detail/MOSFETs_GOODWORK-BSS138_C2938375.html</field>
+        <field name="Vendor">C3040446</field>
+        <field name="vendor">C3040446</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/MOSFETs_GOODWORK-BSS138_C2938375.html"/>
+      <property name="vendor" value="C3040446"/>
+      <property name="Vendor" value="C3040446"/>
+      <property name="LCSC" value="C2938375"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>4d398d70-311e-421f-b8b8-ac85333170f4</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>56k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C851761</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201DR-0756KL_C851761.html</field>
+        <field name="Vendor">C23206</field>
+        <field name="vendor">C23206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201DR-0756KL_C851761.html"/>
+      <property name="vendor" value="C23206"/>
+      <property name="Vendor" value="C23206"/>
+      <property name="LCSC" value="C851761"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>4f5f99b6-ce05-4809-90a1-68da5b0a63be</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C106225</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-0710KL_C106225.html</field>
+        <field name="Vendor">C25804</field>
+        <field name="vendor">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-0710KL_C106225.html"/>
+      <property name="vendor" value="C25804"/>
+      <property name="Vendor" value="C25804"/>
+      <property name="LCSC" value="C106225"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>a8967781-9ba2-47f8-bcb3-fde3e8aac405</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <fields>
+        <field name="LCSC">C106225</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-0710KL_C106225.html</field>
+        <field name="Vendor">C25804</field>
+        <field name="vendor">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-0710KL_C106225.html"/>
+      <property name="vendor" value="C25804"/>
+      <property name="Vendor" value="C25804"/>
+      <property name="LCSC" value="C106225"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>f0b618dd-ae48-4407-accd-7a0f07c89f68</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>WS2812</value>
+      <footprint>SnapEDA Library:LED_WS2812B-B</footprint>
+      <fields>
+        <field name="LCSC">C2843785</field>
+        <field name="MANUFACTURER">Worldsemi</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.84 mm</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_XINGLIGHT-XL-5050RGBC-WS2812B_C2843785.html</field>
+        <field name="PARTREV">V1.0</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="Vendor">C2976072</field>
+        <field name="vendor">C2976072</field>
+      </fields>
+      <libsource lib="WS2812C-2020" part="WS2812C-2020" description=""/>
+      <property name="PARTREV" value="V1.0"/>
+      <property name="MANUFACTURER" value="Worldsemi"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.84 mm"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_XINGLIGHT-XL-5050RGBC-WS2812B_C2843785.html"/>
+      <property name="vendor" value="C2976072"/>
+      <property name="Vendor" value="C2976072"/>
+      <property name="LCSC" value="C2843785"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>1331e561-7809-4d14-ad96-852c797909df</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>WS2812</value>
+      <footprint>SnapEDA Library:LED_WS2812B-B</footprint>
+      <fields>
+        <field name="LCSC">C2843785</field>
+        <field name="MANUFACTURER">Worldsemi</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.84 mm</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_XINGLIGHT-XL-5050RGBC-WS2812B_C2843785.html</field>
+        <field name="PARTREV">V1.0</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="Vendor">C2976072</field>
+        <field name="vendor">C2976072</field>
+      </fields>
+      <libsource lib="WS2812C-2020" part="WS2812C-2020" description=""/>
+      <property name="PARTREV" value="V1.0"/>
+      <property name="MANUFACTURER" value="Worldsemi"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.84 mm"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_XINGLIGHT-XL-5050RGBC-WS2812B_C2843785.html"/>
+      <property name="vendor" value="C2976072"/>
+      <property name="Vendor" value="C2976072"/>
+      <property name="LCSC" value="C2843785"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>662bd4c4-e177-484e-b5da-23963dfa08d1</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>WS2812</value>
+      <footprint>SnapEDA Library:LED_WS2812B-B</footprint>
+      <fields>
+        <field name="LCSC">C2843785</field>
+        <field name="MANUFACTURER">Worldsemi</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.84 mm</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_XINGLIGHT-XL-5050RGBC-WS2812B_C2843785.html</field>
+        <field name="PARTREV">V1.0</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="Vendor">C2976072</field>
+        <field name="vendor">C2976072</field>
+      </fields>
+      <libsource lib="WS2812C-2020" part="WS2812C-2020" description=""/>
+      <property name="PARTREV" value="V1.0"/>
+      <property name="MANUFACTURER" value="Worldsemi"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.84 mm"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_XINGLIGHT-XL-5050RGBC-WS2812B_C2843785.html"/>
+      <property name="vendor" value="C2976072"/>
+      <property name="Vendor" value="C2976072"/>
+      <property name="LCSC" value="C2843785"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>1610c6fb-fe27-4bf3-b9fc-9eda0836ead6</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>WS2812</value>
+      <footprint>SnapEDA Library:LED_WS2812B-B</footprint>
+      <fields>
+        <field name="LCSC">C2843785</field>
+        <field name="MANUFACTURER">Worldsemi</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.84 mm</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_XINGLIGHT-XL-5050RGBC-WS2812B_C2843785.html</field>
+        <field name="PARTREV">V1.0</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="Vendor">C2976072</field>
+        <field name="vendor">C2976072</field>
+      </fields>
+      <libsource lib="WS2812C-2020" part="WS2812C-2020" description=""/>
+      <property name="PARTREV" value="V1.0"/>
+      <property name="MANUFACTURER" value="Worldsemi"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.84 mm"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_XINGLIGHT-XL-5050RGBC-WS2812B_C2843785.html"/>
+      <property name="vendor" value="C2976072"/>
+      <property name="Vendor" value="C2976072"/>
+      <property name="LCSC" value="C2843785"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>e0295199-24fd-4c58-a7cc-38afdae87a62</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>BMI160</value>
+      <footprint>SnapEDA Library:PQFN50P250X300X88-14N</footprint>
+      <fields>
+        <field name="LCSC">C94021</field>
+        <field name="MANUFACTURER">Bosch</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.88 mm</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Attitude-Sensor-Gyroscope_Bosch-Sensortec-BMI160_C94021.html</field>
+        <field name="PARTREV">1.0</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="Vendor">C94021</field>
+        <field name="vendor">C94021</field>
+      </fields>
+      <libsource lib="BMI160" part="BMI160" description=""/>
+      <property name="PARTREV" value="1.0"/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.88 mm"/>
+      <property name="MANUFACTURER" value="Bosch"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Attitude-Sensor-Gyroscope_Bosch-Sensortec-BMI160_C94021.html"/>
+      <property name="vendor" value="C94021"/>
+      <property name="Vendor" value="C94021"/>
+      <property name="LCSC" value="C94021"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>2c63e483-50ea-40c3-a7b6-7647b170eafb</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>CC1101RGPR</value>
+      <footprint>SnapEDA Library:QFN50P400X400X100-21N</footprint>
+      <fields>
+        <field name="LCSC">C29953</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="MAXIMUM_PACKAGE_HIEGHT">1mm</field>
+        <field name="Note">https://www.lcsc.com/product-detail/RF-Transceiver-ICs_Texas-Instruments-CC1101RGPR_C29953.html</field>
+        <field name="PARTREV">6-May-2020</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="Vendor">C29953</field>
+        <field name="vendor">C29953</field>
+      </fields>
+      <libsource lib="CC1101RGPR" part="CC1101RGPR" description=""/>
+      <property name="PARTREV" value="6-May-2020"/>
+      <property name="MANUFACTURER" value="Texas Instruments"/>
+      <property name="MAXIMUM_PACKAGE_HIEGHT" value="1mm"/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/RF-Transceiver-ICs_Texas-Instruments-CC1101RGPR_C29953.html"/>
+      <property name="vendor" value="C29953"/>
+      <property name="Vendor" value="C29953"/>
+      <property name="LCSC" value="C29953"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>c9e9f92f-75c8-4677-8a91-68f65b78d253</tstamps>
+    </comp>
+    <comp ref="Y2">
+      <value>JGHC S3226000151040</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <fields>
+        <field name="LCSC">C479205</field>
+        <field name="Note">https://www.lcsc.com/product-detail/Crystals_span-style-background-color-ff0-JGHC-span-S3226000151040_C479205.html</field>
+        <field name="Vendor">C479205</field>
+        <field name="vendor">C479205</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="Note" value="https://www.lcsc.com/product-detail/Crystals_span-style-background-color-ff0-JGHC-span-S3226000151040_C479205.html"/>
+      <property name="vendor" value="C479205"/>
+      <property name="Vendor" value="C479205"/>
+      <property name="LCSC" value="C479205"/>
+      <property name="Sheetname" value="InputOutput"/>
+      <property name="Sheetfile" value="InputOutput.kicad_sch"/>
+      <sheetpath names="/InputOutput/" tstamps="/c15a2309-71af-495b-84ee-43442cf95a1c/"/>
+      <tstamps>76f4c0da-bc51-4028-8323-c91d1e4735ea</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AO3401" part="AO3401">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AO3401</field>
+        <field name="Footprint">SnapEDA Library:SOT23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BMI160" part="BMI160">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BMI160</field>
+        <field name="Footprint">SnapEDA Library:PQFN50P250X300X88-14N</field>
+        <field name="PARTREV">1.0</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.88 mm</field>
+        <field name="MANUFACTURER">Bosch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDO" type="bidirectional"/>
+        <pin num="2" name="ASDX" type="bidirectional"/>
+        <pin num="3" name="ASCX" type="bidirectional"/>
+        <pin num="4" name="INT1" type="bidirectional"/>
+        <pin num="5" name="VDDIO" type="power_in"/>
+        <pin num="6" name="GNDIO" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="INT2" type="bidirectional"/>
+        <pin num="10" name="OCSB" type="input"/>
+        <pin num="11" name="OSDO" type="output"/>
+        <pin num="12" name="CSB" type="input"/>
+        <pin num="13" name="SCX" type="input"/>
+        <pin num="14" name="SDX" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="CC1101RGPR" part="CC1101RGPR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CC1101RGPR</field>
+        <field name="Footprint">SnapEDA Library:QFN50P400X400X100-21N</field>
+        <field name="PARTREV">6-May-2020</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="MAXIMUM_PACKAGE_HIEGHT">1mm</field>
+        <field name="STANDARD">IPC 7351B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCLK" type="input"/>
+        <pin num="2" name="SO(GDO1)" type="output"/>
+        <pin num="3" name="GDO2" type="output"/>
+        <pin num="4" name="DVDD" type="power_in"/>
+        <pin num="5" name="DCOUPL" type="power_in"/>
+        <pin num="6" name="GDO(ATEST)" type="bidirectional"/>
+        <pin num="7" name="CSN" type="input"/>
+        <pin num="8" name="XOSC_Q1" type="bidirectional"/>
+        <pin num="9" name="AVDD_9" type="power_in"/>
+        <pin num="10" name="XOSC_Q2" type="bidirectional"/>
+        <pin num="11" name="AVDD_11" type="power_in"/>
+        <pin num="12" name="RF_P" type="bidirectional"/>
+        <pin num="13" name="RF_N" type="bidirectional"/>
+        <pin num="14" name="AVDD_14" type="power_in"/>
+        <pin num="15" name="AVDD_15" type="power_in"/>
+        <pin num="16" name="GND_16" type="power_in"/>
+        <pin num="17" name="RBIAS" type="bidirectional"/>
+        <pin num="18" name="DGUARD" type="power_in"/>
+        <pin num="19" name="GND_19" type="power_in"/>
+        <pin num="20" name="SI" type="input"/>
+        <pin num="21" name="EXP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x01_Female">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x01_Male">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DFLS130L-7" part="DFLS130L-7">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DFLS130L-7</field>
+        <field name="Footprint">SnapEDA Library:POWERDI123</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="" type="passive"/>
+        <pin num="P$2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DW01A" part="DW01A">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">DW01A</field>
+        <field name="Footprint">SnapEDA Library:SOT23-6</field>
+        <field name="MPN">DW01A</field>
+        <field name="LCSC">C351410</field>
+        <field name="VALUE">DW01A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OD" type="bidirectional"/>
+        <pin num="2" name="CS" type="bidirectional"/>
+        <pin num="3" name="OC" type="bidirectional"/>
+        <pin num="4" name="TD" type="bidirectional"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FS8205A" part="FS8205A">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">FS8205A</field>
+        <field name="Footprint">SnapEDA Library:SOP65P640X120-8N</field>
+        <field name="MANUFACTURER">Fortune Semiconductor</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="PARTREV">1.7</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.2mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="New_Library" part="SGM6603-5.0YN6G_TR">
+      <description>SGM6603-5.0YN6G/TR</description>
+      <docs>https://pdf1.alldatasheet.com/datasheet-pdf/view/1059319/SGMICRO/SGM6603-5.0YN6G/TR.html</docs>
+      <fields>
+        <field name="Reference">U?</field>
+        <field name="Value">SGM6603-5.0YN6G_TR</field>
+        <field name="Footprint">SnapEDA Library:SOT23-6</field>
+        <field name="Datasheet">https://pdf1.alldatasheet.com/datasheet-pdf/view/1059319/SGMICRO/SGM6603-5.0YN6G/TR.html</field>
+        <field name="Description">SGM6603-5.0YN6G/TR</field>
+        <field name="Height">1.25</field>
+        <field name="Manufacturer_Name">SG-MICRO</field>
+        <field name="Manufacturer_Part_Number">SGM6603-5.0YN6G/TR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="EN" type="passive"/>
+        <pin num="4" name="NC" type="passive"/>
+        <pin num="5" name="VOUT" type="passive"/>
+        <pin num="6" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RP2040" part="RP2040">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RP2040</field>
+        <field name="Footprint">SnapEDA Library:QFN40P700X700X90-57N</field>
+        <field name="PARTREV">1.6.1</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.9 mm</field>
+        <field name="MANUFACTURER">Raspberry Pi</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IOVDD" type="power_in"/>
+        <pin num="2" name="GPIO0" type="bidirectional"/>
+        <pin num="3" name="GPIO1" type="bidirectional"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="GPIO3" type="bidirectional"/>
+        <pin num="6" name="GPIO4" type="bidirectional"/>
+        <pin num="7" name="GPIO5" type="bidirectional"/>
+        <pin num="8" name="GPIO6" type="bidirectional"/>
+        <pin num="9" name="GPIO7" type="bidirectional"/>
+        <pin num="10" name="IOVDD" type="power_in"/>
+        <pin num="11" name="GPIO8" type="bidirectional"/>
+        <pin num="12" name="GPIO9" type="bidirectional"/>
+        <pin num="13" name="GPIO10" type="bidirectional"/>
+        <pin num="14" name="GPIO11" type="bidirectional"/>
+        <pin num="15" name="GPIO12" type="bidirectional"/>
+        <pin num="16" name="GPIO13" type="bidirectional"/>
+        <pin num="17" name="GPIO14" type="bidirectional"/>
+        <pin num="18" name="GPIO15" type="bidirectional"/>
+        <pin num="19" name="TESTEN" type="passive"/>
+        <pin num="20" name="XIN" type="input"/>
+        <pin num="21" name="XOUT" type="output"/>
+        <pin num="22" name="IOVDD" type="power_in"/>
+        <pin num="23" name="DVDD" type="power_in"/>
+        <pin num="24" name="SWCLK" type="input"/>
+        <pin num="25" name="SWD" type="bidirectional"/>
+        <pin num="26" name="RUN" type="input"/>
+        <pin num="27" name="GPIO16" type="bidirectional"/>
+        <pin num="28" name="GPIO17" type="bidirectional"/>
+        <pin num="29" name="GPIO18" type="bidirectional"/>
+        <pin num="30" name="GPIO19" type="bidirectional"/>
+        <pin num="31" name="GPIO20" type="bidirectional"/>
+        <pin num="32" name="GPIO21" type="bidirectional"/>
+        <pin num="33" name="IOVDD" type="power_in"/>
+        <pin num="34" name="GPIO22" type="bidirectional"/>
+        <pin num="35" name="GPIO23" type="bidirectional"/>
+        <pin num="36" name="GPIO24" type="bidirectional"/>
+        <pin num="37" name="GPIO25" type="bidirectional"/>
+        <pin num="38" name="GPIO26/ADC0" type="bidirectional"/>
+        <pin num="39" name="GPIO27/ADC1" type="bidirectional"/>
+        <pin num="40" name="GPIO28/ADC2" type="bidirectional"/>
+        <pin num="41" name="GPIO29/ADC3" type="bidirectional"/>
+        <pin num="42" name="IOVDD" type="power_in"/>
+        <pin num="43" name="ADC_AVDD" type="power_in"/>
+        <pin num="44" name="VREG_VIN" type="input"/>
+        <pin num="45" name="VREG_VOUT" type="output"/>
+        <pin num="46" name="USB_DM" type="bidirectional"/>
+        <pin num="47" name="USB_DP" type="bidirectional"/>
+        <pin num="48" name="USB_VDD" type="power_in"/>
+        <pin num="49" name="IOVDD" type="power_in"/>
+        <pin num="50" name="DVDD" type="power_in"/>
+        <pin num="51" name="QSPI_SD3" type="bidirectional"/>
+        <pin num="52" name="QSPI_SCLK" type="bidirectional"/>
+        <pin num="53" name="QSPI_SD0" type="bidirectional"/>
+        <pin num="54" name="QSPI_SD2" type="bidirectional"/>
+        <pin num="55" name="QSPI_SD1" type="bidirectional"/>
+        <pin num="56" name="QSPI_CSN" type="bidirectional"/>
+        <pin num="57" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="SPX3819M5-L-3-3">
+      <description>500mA Low drop-out regulator, Fixed Output 3.3V, SOT-23-5</description>
+      <docs>https://www.exar.com/content/document.ashx?id=22106&amp;languageid=1033&amp;type=Datasheet&amp;partnumber=SPX3819&amp;filename=SPX3819.pdf&amp;part=SPX3819</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SPX3819M5-L-3-3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.exar.com/content/document.ashx?id=22106&amp;languageid=1033&amp;type=Datasheet&amp;partnumber=SPX3819&amp;filename=SPX3819.pdf&amp;part=SPX3819</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="BP" type="input"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="SM03B-SRSS-TB_LF__SN_" part="SM03B-SRSS-TB(LF)(SN)">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SM03B-SRSS-TB(LF)(SN)</field>
+        <field name="Footprint">SnapEDA Library:JST_SM03B-SRSS-TB(LF)(SN)</field>
+        <field name="MANUFACTURER">JST</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+        <pin num="S2" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TP4056" part="TP4056">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TP4056</field>
+        <field name="Footprint">SnapEDA Library:SOP127P600X175-9N</field>
+        <field name="MANUFACTURER">NanJing Top Power ASIC Corp.</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.75mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEMP" type="input"/>
+        <pin num="2" name="PROG" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="BAT" type="output"/>
+        <pin num="6" name="~{STDBY}" type="output"/>
+        <pin num="7" name="~{CHRG}" type="output"/>
+        <pin num="8" name="CE" type="input"/>
+        <pin num="9" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TYPE-C-31-M-12" part="TYPE-C-31-M-12">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TYPE-C-31-M-12</field>
+        <field name="Footprint">SnapEDA Library:HRO_TYPE-C-31-M-12</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.26 mm</field>
+        <field name="SNAPEDA_PN">TYPE-C-31-M-12</field>
+        <field name="PARTREV">2020.12.08</field>
+        <field name="MANUFACTURER">HRO Electronics Co., Ltd.</field>
+      </fields>
+      <pins>
+        <pin num="A1/B12" name="GND" type="power_in"/>
+        <pin num="A4/B9" name="VBUS" type="power_in"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="DP1" type="bidirectional"/>
+        <pin num="A7" name="DN1" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="B1/A12" name="GND" type="power_in"/>
+        <pin num="B4/A9" name="VBUS" type="power_in"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="DP2" type="bidirectional"/>
+        <pin num="B7" name="DN2" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+        <pin num="S2" name="SHIELD" type="passive"/>
+        <pin num="S3" name="SHIELD" type="passive"/>
+        <pin num="S4" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="W25Q128JVSIQ" part="W25Q128JVSIQ">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25Q128JVSIQ</field>
+        <field name="Footprint">SnapEDA Library:SOIC127P790X216-8N</field>
+        <field name="PARTREV">I</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.16 mm</field>
+        <field name="MANUFACTURER">Winbond Electronics</field>
+      </fields>
+      <pins>
+        <pin num="1" name="/CS" type="input"/>
+        <pin num="2" name="DO(IO1)" type="bidirectional"/>
+        <pin num="3" name="/WP(IO2)" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI(IO0)" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="/HOLD/RESET(IO3)" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="WS2812C-2020" part="WS2812C-2020">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">WS2812C-2020</field>
+        <field name="Footprint">SnapEDA Library:LED_WS2812C-2020</field>
+        <field name="PARTREV">V1.0</field>
+        <field name="MANUFACTURER">Worldsemi</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.84 mm</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DO" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="DI" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AO3401">
+      <uri>C:/Users/scrat/SnapEDA Kicad Plugin/KiCad Library/SnapEDA Library/AO3401.lib</uri>
+    </library>
+    <library logical="BMI160">
+      <uri>C:/Users/scrat/SnapEDA Kicad Plugin/KiCad Library/SnapEDA Library/BMI160.lib</uri>
+    </library>
+    <library logical="CC1101RGPR">
+      <uri>C:/Users/scrat/SnapEDA Kicad Plugin/KiCad Library/SnapEDA Library/CC1101RGPR.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="DFLS130L-7">
+      <uri>C:/Users/scrat/SnapEDA Kicad Plugin/KiCad Library/SnapEDA Library/DFLS130L-7.lib</uri>
+    </library>
+    <library logical="DW01A">
+      <uri>C:/Users/scrat/SnapEDA Kicad Plugin/KiCad Library/SnapEDA Library/DW01A.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="FS8205A">
+      <uri>C:/Users/scrat/SnapEDA Kicad Plugin/KiCad Library/SnapEDA Library/FS8205A.lib</uri>
+    </library>
+    <library logical="New_Library">
+      <uri>C:/Users/scrat/Documents/KiCad/6.0/symbols/New_Library.kicad_sym</uri>
+    </library>
+    <library logical="RP2040">
+      <uri>C:/Users/scrat/SnapEDA Kicad Plugin/KiCad Library/SnapEDA Library/RP2040.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="SM03B-SRSS-TB_LF__SN_">
+      <uri>C:/Users/scrat/SnapEDA Kicad Plugin/KiCad Library/SnapEDA Library/SM03B-SRSS-TB_LF__SN_.lib</uri>
+    </library>
+    <library logical="TP4056">
+      <uri>C:/Users/scrat/SnapEDA Kicad Plugin/KiCad Library/SnapEDA Library/TP4056.lib</uri>
+    </library>
+    <library logical="TYPE-C-31-M-12">
+      <uri>C:/Users/scrat/SnapEDA Kicad Plugin/KiCad Library/SnapEDA Library/TYPE-C-31-M-12.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+    <library logical="W25Q128JVSIQ">
+      <uri>C:/Users/scrat/SnapEDA Kicad Plugin/KiCad Library/SnapEDA Library/W25Q128JVSIQ.lib</uri>
+    </library>
+    <library logical="WS2812C-2020">
+      <uri>C:/Users/scrat/SnapEDA Kicad Plugin/KiCad Library/SnapEDA Library/WS2812C-2020.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V1">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="U1" pin="45" pinfunction="VREG_VOUT" pintype="output"/>
+      <node ref="U1" pin="50" pinfunction="DVDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+3.3V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U1" pin="10" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U1" pin="22" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U1" pin="33" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U1" pin="42" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U1" pin="43" pinfunction="ADC_AVDD" pintype="power_in"/>
+      <node ref="U1" pin="44" pinfunction="VREG_VIN" pintype="input"/>
+      <node ref="U1" pin="48" pinfunction="USB_VDD" pintype="power_in"/>
+      <node ref="U1" pin="49" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U11" pin="11" pinfunction="AVDD_11" pintype="power_in"/>
+      <node ref="U11" pin="14" pinfunction="AVDD_14" pintype="power_in"/>
+      <node ref="U11" pin="15" pinfunction="AVDD_15" pintype="power_in"/>
+      <node ref="U11" pin="18" pinfunction="DGUARD" pintype="power_in"/>
+      <node ref="U11" pin="4" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="U11" pin="9" pinfunction="AVDD_9" pintype="power_in"/>
+      <node ref="U12" pin="5" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U2" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U7" pin="5" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U7" pin="8" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U13" pin="5" pinfunction="VOUT" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="4" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="4" name="BAT_N">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="3" pintype="passive"/>
+    </net>
+    <net code="5" name="BAT_O">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U12" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U12" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="U13" pin="3" pinfunction="EN" pintype="passive"/>
+      <node ref="U13" pin="6" pinfunction="VCC" pintype="passive"/>
+    </net>
+    <net code="6" name="BAT_P">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U8" pin="5" pinfunction="BAT" pintype="output"/>
+      <node ref="U9" pin="3" pintype="passive"/>
+    </net>
+    <net code="7" name="CHRG">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U8" pin="7" pinfunction="~{CHRG}" pintype="output"/>
+    </net>
+    <net code="8" name="COM_CLK">
+      <node ref="U1" pin="29" pinfunction="GPIO18" pintype="bidirectional"/>
+      <node ref="U11" pin="1" pinfunction="SCLK" pintype="input"/>
+    </net>
+    <net code="9" name="COM_CS">
+      <node ref="U1" pin="28" pinfunction="GPIO17" pintype="bidirectional"/>
+      <node ref="U11" pin="7" pinfunction="CSN" pintype="input"/>
+    </net>
+    <net code="10" name="COM_DO1">
+      <node ref="U1" pin="31" pinfunction="GPIO20" pintype="bidirectional"/>
+      <node ref="U11" pin="6" pinfunction="GDO(ATEST)" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="COM_DO2">
+      <node ref="U1" pin="32" pinfunction="GPIO21" pintype="bidirectional"/>
+      <node ref="U11" pin="3" pinfunction="GDO2" pintype="output"/>
+    </net>
+    <net code="12" name="COM_MISO">
+      <node ref="U1" pin="27" pinfunction="GPIO16" pintype="bidirectional"/>
+      <node ref="U11" pin="2" pinfunction="SO(GDO1)" pintype="output"/>
+    </net>
+    <net code="13" name="COM_MOSI">
+      <node ref="U1" pin="30" pinfunction="GPIO19" pintype="bidirectional"/>
+      <node ref="U11" pin="20" pinfunction="SI" pintype="input"/>
+    </net>
+    <net code="14" name="DN">
+      <node ref="J3" pin="A7" pinfunction="DN1" pintype="bidirectional"/>
+      <node ref="J3" pin="B7" pinfunction="DN2" pintype="bidirectional"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="DP">
+      <node ref="J3" pin="A6" pinfunction="DP1" pintype="bidirectional"/>
+      <node ref="J3" pin="B6" pinfunction="DP2" pintype="bidirectional"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J10" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J10" pin="S2" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J3" pin="A1/B12" pinfunction="GND" pintype="power_in"/>
+      <node ref="J3" pin="B1/A12" pinfunction="GND" pintype="power_in"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J4" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J4" pin="S2" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="6" pintype="passive"/>
+      <node ref="Q1" pin="7" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="TESTEN" pintype="passive"/>
+      <node ref="U1" pin="57" pinfunction="GND" pintype="power_in"/>
+      <node ref="U11" pin="16" pinfunction="GND_16" pintype="power_in"/>
+      <node ref="U11" pin="19" pinfunction="GND_19" pintype="power_in"/>
+      <node ref="U11" pin="21" pinfunction="EXP" pintype="power_in"/>
+      <node ref="U12" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U13" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="6" pinfunction="GNDIO" pintype="power_in"/>
+      <node ref="U7" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="1" pinfunction="TEMP" pintype="input"/>
+      <node ref="U8" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="Y2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y2" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="17" name="LED1">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="LED2">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="LED_DI">
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="N_USB_BOOT">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(C20-Pad1)">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="U11" pin="5" pinfunction="DCOUPL" pintype="power_in"/>
+    </net>
+    <net code="23" name="Net-(C24-Pad1)">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(C26-Pad2)">
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(C29-Pad1)">
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="L4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(C32-Pad1)">
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="L5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(C34-Pad2)">
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(IC1-Pad2)">
+      <node ref="IC1" pin="2" pinfunction="CS" pintype="bidirectional"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(J3-PadA5)">
+      <node ref="J3" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(J3-PadB5)">
+      <node ref="J3" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(J3-PadS1)">
+      <node ref="J3" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J3" pin="S2" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J3" pin="S3" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J3" pin="S4" pinfunction="SHIELD" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(J4-Pad3)">
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U10" pin="P$1" pintype="passive"/>
+      <node ref="U9" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(J10-Pad1)">
+      <node ref="J10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(J10-Pad3)">
+      <node ref="J10" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(L1-Pad2)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U13" pin="1" pinfunction="SW" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="8" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="44" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="PROG" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="46" pinfunction="USB_DM" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U1" pin="47" pinfunction="USB_DP" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="/CS" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U11" pin="17" pinfunction="RBIAS" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U4" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="50" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U5" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="51" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U6" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="52" name="OC">
+      <node ref="IC1" pin="3" pinfunction="OC" pintype="bidirectional"/>
+      <node ref="Q1" pin="5" pintype="passive"/>
+    </net>
+    <net code="53" name="OD">
+      <node ref="IC1" pin="1" pinfunction="OD" pintype="bidirectional"/>
+      <node ref="Q1" pin="4" pintype="passive"/>
+    </net>
+    <net code="54" name="QSPI_CLK">
+      <node ref="U1" pin="52" pinfunction="QSPI_SCLK" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="55" name="QSPI_SD0">
+      <node ref="U1" pin="53" pinfunction="QSPI_SD0" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="QSPI_SD1">
+      <node ref="U1" pin="55" pinfunction="QSPI_SD1" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="QSPI_SD2">
+      <node ref="U1" pin="54" pinfunction="QSPI_SD2" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="/WP(IO2)" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="QSPI_SD3">
+      <node ref="U1" pin="51" pinfunction="QSPI_SD3" pintype="bidirectional"/>
+      <node ref="U2" pin="7" pinfunction="/HOLD/RESET(IO3)" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="RESET">
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="RUN" pintype="input"/>
+    </net>
+    <net code="60" name="RF_N">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U11" pin="13" pinfunction="RF_N" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="RF_P">
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U11" pin="12" pinfunction="RF_P" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="SEN_CS">
+      <node ref="U1" pin="16" pinfunction="GPIO13" pintype="bidirectional"/>
+      <node ref="U7" pin="12" pinfunction="CSB" pintype="input"/>
+    </net>
+    <net code="63" name="SEN_INT1">
+      <node ref="U1" pin="17" pinfunction="GPIO14" pintype="bidirectional"/>
+      <node ref="U7" pin="4" pinfunction="INT1" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="SEN_INT2">
+      <node ref="U1" pin="18" pinfunction="GPIO15" pintype="bidirectional"/>
+      <node ref="U7" pin="9" pinfunction="INT2" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="SEN_MISO">
+      <node ref="U1" pin="15" pinfunction="GPIO12" pintype="bidirectional"/>
+      <node ref="U7" pin="1" pinfunction="SDO" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="SEN_MOSI">
+      <node ref="U1" pin="14" pinfunction="GPIO11" pintype="bidirectional"/>
+      <node ref="U7" pin="14" pinfunction="SDX" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="SEN_SCK">
+      <node ref="U1" pin="13" pinfunction="GPIO10" pintype="bidirectional"/>
+      <node ref="U7" pin="13" pinfunction="SCX" pintype="input"/>
+    </net>
+    <net code="68" name="STDBY">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="~{STDBY}" pintype="output"/>
+    </net>
+    <net code="69" name="SWCLK">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="SWCLK" pintype="input"/>
+    </net>
+    <net code="70" name="SWD">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="SWD" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="SWRX">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="72" name="SWTX">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="VBUS">
+      <node ref="J3" pin="A4/B9" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J3" pin="B4/A9" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U10" pin="P$2" pintype="passive"/>
+      <node ref="U8" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U8" pin="8" pinfunction="CE" pintype="input"/>
+      <node ref="U9" pin="1" pintype="passive"/>
+    </net>
+    <net code="74" name="XIN">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="XIN" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="75" name="XOSC_Q1">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="U11" pin="8" pinfunction="XOSC_Q1" pintype="bidirectional"/>
+      <node ref="Y2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="76" name="XOSC_Q2">
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="U11" pin="10" pinfunction="XOSC_Q2" pintype="bidirectional"/>
+      <node ref="Y2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="77" name="XOUT">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="XOUT" pintype="output"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="78" name="unconnected-(IC1-Pad4)">
+      <node ref="IC1" pin="4" pinfunction="TD" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="unconnected-(J3-PadA8)">
+      <node ref="J3" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="unconnected-(J3-PadB8)">
+      <node ref="J3" pin="B8" pinfunction="SBU2" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="84" name="unconnected-(U1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="GPIO7" pintype="bidirectional"/>
+    </net>
+    <net code="85" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
+    </net>
+    <net code="86" name="unconnected-(U1-Pad34)">
+      <node ref="U1" pin="34" pinfunction="GPIO22" pintype="bidirectional"/>
+    </net>
+    <net code="87" name="unconnected-(U1-Pad35)">
+      <node ref="U1" pin="35" pinfunction="GPIO23" pintype="bidirectional"/>
+    </net>
+    <net code="88" name="unconnected-(U1-Pad36)">
+      <node ref="U1" pin="36" pinfunction="GPIO24" pintype="bidirectional"/>
+    </net>
+    <net code="89" name="unconnected-(U1-Pad37)">
+      <node ref="U1" pin="37" pinfunction="GPIO25" pintype="bidirectional"/>
+    </net>
+    <net code="90" name="unconnected-(U1-Pad38)">
+      <node ref="U1" pin="38" pinfunction="GPIO26/ADC0" pintype="bidirectional"/>
+    </net>
+    <net code="91" name="unconnected-(U1-Pad39)">
+      <node ref="U1" pin="39" pinfunction="GPIO27/ADC1" pintype="bidirectional"/>
+    </net>
+    <net code="92" name="unconnected-(U1-Pad40)">
+      <node ref="U1" pin="40" pinfunction="GPIO28/ADC2" pintype="bidirectional"/>
+    </net>
+    <net code="93" name="unconnected-(U1-Pad41)">
+      <node ref="U1" pin="41" pinfunction="GPIO29/ADC3" pintype="bidirectional"/>
+    </net>
+    <net code="94" name="unconnected-(U1-Pad56)">
+      <node ref="U1" pin="56" pinfunction="QSPI_CSN" pintype="bidirectional"/>
+    </net>
+    <net code="95" name="unconnected-(U6-Pad1)">
+      <node ref="U6" pin="1" pinfunction="DO" pintype="output"/>
+    </net>
+    <net code="96" name="unconnected-(U7-Pad2)">
+      <node ref="U7" pin="2" pinfunction="ASDX" pintype="bidirectional"/>
+    </net>
+    <net code="97" name="unconnected-(U7-Pad3)">
+      <node ref="U7" pin="3" pinfunction="ASCX" pintype="bidirectional"/>
+    </net>
+    <net code="98" name="unconnected-(U7-Pad10)">
+      <node ref="U7" pin="10" pinfunction="OCSB" pintype="input"/>
+    </net>
+    <net code="99" name="unconnected-(U7-Pad11)">
+      <node ref="U7" pin="11" pinfunction="OSDO" pintype="output"/>
+    </net>
+    <net code="100" name="unconnected-(U8-Pad9)">
+      <node ref="U8" pin="9" pinfunction="EP" pintype="passive"/>
+    </net>
+    <net code="101" name="unconnected-(U12-Pad4)">
+      <node ref="U12" pin="4" pinfunction="BP" pintype="input"/>
+    </net>
+    <net code="102" name="unconnected-(U13-Pad4)">
+      <node ref="U13" pin="4" pinfunction="NC" pintype="passive"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid d92252e1-c687-49e6-87c8-e9430a2c933e)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 22.86 41.91) (size 19.05 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c15a2309-71af-495b-84ee-43442cf95a1c)
+    (property "Sheetname" "InputOutput" (at 22.86 41.1984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "InputOutput.kicad_sch" (at 22.86 46.3046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Frackstock"
+        (path "/d92252e1-c687-49e6-87c8-e9430a2c933e" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 22.86 21.59) (size 19.05 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e9af0e5f-81d9-4941-b623-a8314cc9a540)
+    (property "Sheetname" "PowerSupply" (at 22.86 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PowerSupply.kicad_sch" (at 22.86 25.9846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Frackstock"
+        (path "/d92252e1-c687-49e6-87c8-e9430a2c933e" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 22.86 31.75) (size 19.05 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ef112b53-3ef3-47e6-bd33-16e434e7b229)
+    (property "Sheetname" "MCU: RP2040" (at 22.86 31.0384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCUrp2040.kicad_sch" (at 22.86 36.1446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Frackstock"
+        (path "/d92252e1-c687-49e6-87c8-e9430a2c933e" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

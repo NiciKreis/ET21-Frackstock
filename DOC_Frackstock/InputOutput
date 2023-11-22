@@ -1,0 +1,27 @@
+# Frackstock
+
+## RF-Anpassung
+
+
+
+**Empfehlung gemäss Datenblatt CC1101**
+
+![image-20231116143248241](C:\Users\nicol\Documents\GitHub\ET20_Frackstock\DOC_Frackstock\Assets\image-20231116143248241.png)
+
+**Effektiv umgesetzte Schaltung 2023**
+
+
+
+![image-20231116144048629](C:\Users\nicol\Documents\GitHub\ET20_Frackstock\DOC_Frackstock\assets\image-20231116144048629.png)
+
+Die umgesetzte Schaltung entspricht der Beispielschaltung für die Frequenzen 315/433 MHz. Die Antenne selbst (W3000) ist für eine Frequenz von 868 MHz ausgelegt, weshalb die Durchsatzleistung so schlecht war. 
+
+**Lösung**
+
+Schaltung wurde auf 868 MHz angepasst. Antenne kann übernommen werden, diese ist für 868MHz Ausgelegt.
+
+
+
+**Next steps:**
+
+Alle Bauformen auf 0603 Anpassen. Manche sind 0201!!

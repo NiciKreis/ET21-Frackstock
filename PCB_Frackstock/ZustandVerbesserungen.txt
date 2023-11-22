@@ -1,0 +1,21 @@
+Zustand & Verbesserungen Frackstock Schema & Programmierung
+23.04.2023
+ BAT Charching
+  - Schaltung fuktioniert keine änderungen nötig
+
+ CPU & MEM
+  - Fehlende CS Verbingung hinzugefügt
+  - kleinerer Flash könnte platz sparen (vergleiche Flash grösse mit Original Raspberrypi Pico)?
+  - STD LED pin mit LED versehen?
+  - verbleibende PINS herausführen?
+
+ RGB LED
+  - falscher Footprint auf DEV-Borad :(
+  - LED ring als ersatz angelötet funktioniert
+
+ BMI160 IMU
+  - SPI OK
+  - Konfiguration von Klopferkenung funktioniert aber ist noch nicht optimal eingestellt
+
+ CC1101 RF Modul
+  - noch nicht getestet
