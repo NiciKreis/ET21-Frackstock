@@ -6,13 +6,13 @@
 
 **Empfehlung gemäss Datenblatt CC1101**
 
-![image-20231116143248241](C:\Users\nicol\Documents\GitHub\ET20_Frackstock\DOC_Frackstock\Assets\image-20231116143248241.png)
+![image-20231116143248241](Assets\image-20231116143248241.png)
 
 **Effektiv umgesetzte Schaltung 2023**
 
 
 
-![image-20231116144048629](C:\Users\nicol\Documents\GitHub\ET20_Frackstock\DOC_Frackstock\assets\image-20231116144048629.png)
+![image-20231116144048629](assets\image-20231116144048629.png)
 
 Die umgesetzte Schaltung entspricht der Beispielschaltung für die Frequenzen 315/433 MHz. Die Antenne selbst (W3000) ist für eine Frequenz von 868 MHz ausgelegt, weshalb die Durchsatzleistung so schlecht war. 
 
@@ -22,6 +22,53 @@ Schaltung wurde auf 868 MHz angepasst. Antenne kann übernommen werden, diese is
 
 
 
-**Next steps:**
+**Quartz**
 
-Alle Bauformen auf 0603 Anpassen. Manche sind 0201!!
+Die Berechnnung der externen Kondensatoren werden folgendermassen berechnet:
+
+
+$$
+C_L = \frac{C_a \cdot C_b}{C_a + C_b} + C_{stray}
+$$
+
+
+## LED-Ring
+
+Bei dem LED-Ring handelt es sich um folgendes Produkt:
+
+
+
+https://www.distrelec.ch/de/neopixel-ring-mit-16-rgb-leds-adafruit-1463/p/30091142?queryFromSuggest=true&itemList=suggested_search
+
+(Bei vielen anderen ähnlichen Ringen, handelt es sich um grössere Ringe, die für den Fracksstock aber unpassend sind.)
+
+
+
+Die Ansteuerung kann über die Adafruit_NeoPixel Library vorgenommen werden.
+
+
+
+**Spannungsversorgung der Ringe**
+
+Die LED-Ringe können gemäss Datenblatt direkt mit der nominalen Spannung (3.6 V) der Li-Ionen-Batterie gespiesen werden. Daher wird kein Boost-Converter benötigt.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1360,8 +1360,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 44f49b65-f820-44a4-9564-5097c44ebb55)
   )
-  (text "Dauerstrom abschätzen, evt. ist dieser Boost converter zu klein. -> LED's checken"
-    (at 193.04 158.75 0)
+  (text "LED-Ring wird direkt mit der Batteriespannung gespiesen.\nEine 5V Spannungsquelle wird somit garnicht gebraucht.\n(Wird drin gelassen falls doch)\n"
+    (at 227.33 157.48 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 490a952c-8703-44b4-bb62-b2c9e4656332)
   )
