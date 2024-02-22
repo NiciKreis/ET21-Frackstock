@@ -250,7 +250,7 @@ void setup() {
   BMI160.attachInterrupt(bmi160_intr);
   BMI160.setAccelerometerRange(BMI160_ACCEL_RANGE_16G);
   BMI160.setAccelerometerRate(800);
-
+  /*
   #if !defined USE_D_TAP
   BMI160.setShockDetectionThreshold(14000);
   BMI160.setShockDetectionDuration(0);
@@ -261,6 +261,7 @@ void setup() {
   BMI160.setDoubleTapDetectionDuration(7);
   BMI160.setTapDetectionThreshold(14000);
   #endif
+  */
   
   SPI = arduino::MbedSPI(CC1101_MISO_PIN, CC1101_MOSI_PIN, CC1101_SCK_PIN);
   SPI.begin();

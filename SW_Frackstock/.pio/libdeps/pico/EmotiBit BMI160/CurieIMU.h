@@ -203,6 +203,13 @@ class CurieIMUClass : public BMI160Class {
         void attachInterrupt(void (*callback)(void));
         void detachInterrupt(void);
 
+    protected:
+	virtual void ss_init();
+	virtual int ss_xfer(uint8_t *buf, unsigned tx_cnt, unsigned rx_cnt);
+
+    private:
+        int serial_buffer_transfer(uint8_t *buf, unsigned tx_cnt, unsigned rx_cnt);
+
         float getFreefallDetectionThreshold();
         void setFreefallDetectionThreshold(float threshold);
         float getShockDetectionThreshold();
@@ -230,13 +237,6 @@ class CurieIMUClass : public BMI160Class {
         void setDoubleTapDetectionDuration(int duration);
 
         void enableInterrupt(int feature, bool enabled);
-
-    protected:
-	virtual void ss_init();
-	virtual int ss_xfer(uint8_t *buf, unsigned tx_cnt, unsigned rx_cnt);
-
-    private:
-        int serial_buffer_transfer(uint8_t *buf, unsigned tx_cnt, unsigned rx_cnt);
 
         void (*_user_callback)(void);
 };

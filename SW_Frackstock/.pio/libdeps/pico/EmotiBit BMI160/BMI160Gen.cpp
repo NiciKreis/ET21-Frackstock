@@ -146,7 +146,7 @@ void BMI160GenClass::spi_init()
 #endif // DEBUG
 
   // start the SPI library:
-  SPI1.begin();
+  SPI.begin();
   if (0 <= spi_ss) {
     pinMode(spi_ss, OUTPUT);
   } else {
@@ -179,17 +179,17 @@ int BMI160GenClass::spi_xfer(uint8_t *buf, unsigned tx_cnt, unsigned rx_cnt)
   p = buf;
   while (0 < tx_cnt) {
     tx_cnt--;
-    SPI1.transfer(*p++);
+    SPI.transfer(*p++);
   }
   p = buf;
   while (0 < rx_cnt) {
     rx_cnt--;
 #ifdef DEBUG
-    int t = *p++ = SPI1.transfer(0);
+    int t = *p++ = SPI.transfer(0);
     Serial.print(" ");
     Serial.print(t, HEX);
 #else
-    *p++ = SPI1.transfer(0);
+    *p++ = SPI.transfer(0);
 #endif // DEBUG
   }
   if (0 <= spi_ss)
