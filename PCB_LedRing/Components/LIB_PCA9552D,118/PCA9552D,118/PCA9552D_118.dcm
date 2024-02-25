@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCA9552D,118
+D LED Lighting Drivers 16-BIT I2C FM OD LED BLK RST
+K
+F http://www.nxp.com/docs/en/data-sheet/PCA9552.pdf
+$ENDCMP
+#
+#End Doc Library
