@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "SnapEDA Library pretty")(type "KiCad")(uri "C:/Users/scrat/SnapEDA Kicad Plugin/KiCad Library/SnapEDA Library.pretty")(options "")(descr ""))
   (lib (name "SnapEDA Library")(type "KiCad")(uri "C:/Users/scrat/SnapEDA Kicad Plugin/KiCad Library/SnapEDA Library")(options "")(descr ""))
+  (lib (name "RPi_Pico")(type "KiCad")(uri "${KIPRJMOD}/RPi_Pico.pretty")(options "")(descr ""))
+  (lib (name "Frack")(type "KiCad")(uri "${KIPRJMOD}/Frack.pretty")(options "")(descr ""))
 )

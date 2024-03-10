@@ -46,7 +46,7 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid ef112b53-3ef3-47e6-bd33-16e434e7b229)
-    (property "Sheetname" "MCU: RP2040" (at 22.86 31.0384 0)
+    (property "Sheetname" "MCU: RPi-Pico" (at 22.86 31.0384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "MCUrp2040.kicad_sch" (at 22.86 36.1446 0)
