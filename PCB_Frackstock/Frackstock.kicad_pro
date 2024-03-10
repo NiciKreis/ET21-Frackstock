@@ -56,7 +56,22 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|128140000|67350000|adb5be9a-f02e-47b0-a546-4baaf1041d01|df2578a6-3ced-4be5-ac52-5aeb09e80f12",
+        "clearance|131640000|67350000|6ad8aa68-31e2-45ee-9532-b4231c6eec03|43d34699-ce99-4186-aa9d-ed75cc67eb2a",
+        "courtyards_overlap|128140001|66400001|355b6ba2-3531-4407-8a04-11f6dd8e9eea|4a21cf41-9d48-4403-b25a-086c302e87c7",
+        "courtyards_overlap|128270001|66400001|04400fa6-1b38-46da-bbe0-1945cf8a2bd0|f810f638-92d9-4df7-a8ae-69fa040ea799",
+        "courtyards_overlap|128640001|69200001|3e5b71a0-f97e-422b-98bb-488f69569055|f810f638-92d9-4df7-a8ae-69fa040ea799",
+        "courtyards_overlap|129140001|69700001|355b6ba2-3531-4407-8a04-11f6dd8e9eea|3e5b71a0-f97e-422b-98bb-488f69569055",
+        "courtyards_overlap|129140001|69700001|f810f638-92d9-4df7-a8ae-69fa040ea799|3e5b71a0-f97e-422b-98bb-488f69569055",
+        "courtyards_overlap|130135001|66400001|be7e3354-8251-495a-b298-88a0050ae15f|f810f638-92d9-4df7-a8ae-69fa040ea799",
+        "courtyards_overlap|130140001|66400001|29d70559-42d6-4a74-9b04-a921e0e8c935|355b6ba2-3531-4407-8a04-11f6dd8e9eea",
+        "items_not_allowed|125700000|116850000|f810f638-92d9-4df7-a8ae-69fa040ea799|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|126190000|116850000|355b6ba2-3531-4407-8a04-11f6dd8e9eea|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|129880000|55620000|0af0354c-aee1-4dd9-aada-9cd3c1a48f94|00000000-0000-0000-0000-000000000000",
+        "track_dangling|136204050|140367000|ba697508-cc33-48e3-95a1-cef6c37fecbb|00000000-0000-0000-0000-000000000000",
+        "unconnected_items|136199750|150620000|b7876299-5763-48b7-96a0-a73ea91da531|b6aaed1f-ee6d-4614-9b31-9f28a91b6927"
+      ],
       "meta": {
         "version": 2
       },
@@ -123,7 +138,7 @@
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.7999999999999999,
+        "min_text_height": 0.6,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.09999999999999999,
         "min_track_width": 0.19999999999999998,
@@ -191,8 +206,8 @@
           "drill": 0.15
         },
         {
-          "diameter": 1.2,
-          "drill": 0.5
+          "diameter": 0.5,
+          "drill": 0.25
         }
       ],
       "zones_allow_external_fillets": false,
