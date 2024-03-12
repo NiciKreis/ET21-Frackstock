@@ -30,3 +30,4 @@ fp-info-cache
 
 # User Ignores
 *.DS_Store
+PCB_LedRing/export/PCB_LedRing_Gerber/*
