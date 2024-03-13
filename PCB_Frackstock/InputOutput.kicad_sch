@@ -2707,7 +2707,7 @@
     (property "Value" "Conn_01x06_Pin" (at 154.94 42.545 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 153.67 39.37 0)
+    (property "Footprint" "Frack:PinHeader_2x03_P2.54mm_Vertical_SMD_kleiner" (at 153.67 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 153.67 39.37 0)
