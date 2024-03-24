@@ -46,9 +46,8 @@ Auch wenn die Schaltung mit einem USB geladen wird, wird nicht das USB-Feature g
 
 Fast charge current set: Damit wird der maximale Ladestrom festgelegt. 
 $$
-I_{charge} = 500mA, \qquad R_{PROG1} = \frac{1000V}{500mA} = 2k \Omega
+I_{charge} = 1A, \qquad R_{PROG1} = \frac{1000V}{1A} = 1k \Omega
 $$
-
 
 **Prog2**
 
