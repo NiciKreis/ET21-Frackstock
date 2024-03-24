@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Frackstock ET2024")
+    (date "2024-03-24")
+    (rev "2")
+    (company "Eberkreis")
+  )
+
   (lib_symbols
   )
 
@@ -12,7 +19,7 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid c15a2309-71af-495b-84ee-43442cf95a1c)
-    (property "Sheetname" "InputOutput" (at 22.86 41.1984 0)
+    (property "Sheetname" "RF-Communication" (at 22.86 41.1984 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "InputOutput.kicad_sch" (at 22.86 46.3046 0)
