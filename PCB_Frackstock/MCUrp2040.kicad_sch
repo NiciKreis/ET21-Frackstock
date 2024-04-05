@@ -2426,7 +2426,7 @@
     (property "Reference" "C33" (at 241.3 127.635 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "330u" (at 241.3 130.175 0)
+    (property "Value" "100u" (at 241.3 130.175 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 236.5248 124.46 0)
